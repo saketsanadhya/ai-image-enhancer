@@ -46,7 +46,7 @@ function MediaUploader({ onValueChange, setImage, image, publicId, type }: Media
 
   return (
     <CldUploadWidget
-      uploadPreset="ai_image_enhancer" 
+      uploadPreset="imagify" 
       options={{
         multiple: false,
         resourceType: "image",

@@ -105,7 +105,6 @@ export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
       api_secret: process.env.CLOUDINARY_API_SECRET,
       secure: true,
     })
-    ///////////////////////////////////////////////////////////////////////////////////////
     let expression = 'folder=imagify';
 
     if (searchQuery) {
